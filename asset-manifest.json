@@ -1,0 +1,35 @@
+{
+  "files": {
+    "app.js": "/fbtool/static/js/app.fd6cd3de.chunk.js",
+    "app.js.map": "/fbtool/static/js/app.fd6cd3de.chunk.js.map",
+    "runtime~app.js": "/fbtool/static/js/runtime~app.2e87254b.js",
+    "runtime~app.js.map": "/fbtool/static/js/runtime~app.2e87254b.js.map",
+    "static/js/2.07c895ae.chunk.js": "/fbtool/static/js/2.07c895ae.chunk.js",
+    "static/js/2.07c895ae.chunk.js.map": "/fbtool/static/js/2.07c895ae.chunk.js.map",
+    "fonts/AntDesign.ttf": "/fbtool/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/fbtool/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/fbtool/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/fbtool/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/fbtool/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/fbtool/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/fbtool/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/fbtool/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/fbtool/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/fbtool/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/fbtool/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/fbtool/./fonts/SimpleLineIcons.ttf",
+    "fonts/SpaceMono-Regular.ttf": "/fbtool/./fonts/SpaceMono-Regular.ttf",
+    "favicon-16.png": "/fbtool/favicon-16.png",
+    "favicon-32.png": "/fbtool/favicon-32.png",
+    "favicon.ico": "/fbtool/favicon.ico",
+    "index.html": "/fbtool/index.html",
+    "manifest.json": "/fbtool/manifest.json",
+    "serve.json": "/fbtool/serve.json",
+    "static/js/2.07c895ae.chunk.js.LICENSE.txt": "/fbtool/static/js/2.07c895ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.2e87254b.js",
+    "static/js/2.07c895ae.chunk.js",
+    "static/js/app.fd6cd3de.chunk.js"
+  ]
+}

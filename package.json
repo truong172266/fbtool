@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://truong172266.github.io/webtool/",
+  "homepage": "https://truong172266.github.io/fbtool",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

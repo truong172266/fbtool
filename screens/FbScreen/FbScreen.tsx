@@ -25,6 +25,7 @@ import Tutorial from "./Tutorial";
 import styles from "./styles";
 import FbService from "./FbService";
 import User from "./AddUser";
+import axios from 'axios'
 
 class FbScreen extends React.Component {
   constructor(props){
@@ -57,7 +58,7 @@ class FbScreen extends React.Component {
 
             if (a && b && idLike !== null){
               for (var jndex=0;jndex<arr.length;jndex++){
-                fetch('https://graph.facebook.com/v2.3/'+ res[0]+'/likes?access_token='+ arr[jndex].cookie +'&method=post')
+                axios.get('https://graph.facebook.com/v2.3/'+ res[0]+'/likes?access_token='+ arr[jndex].cookie +'&method=post')
                 await new Promise(r => setTimeout(r,Math.random()*res[1]));
               }
             }

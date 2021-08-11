@@ -6,6 +6,7 @@ import {AntDesign, Ionicons} from '@expo/vector-icons';
 import Firebase from "../../firebase/Firebase";
 const optionsPerPage = [2, 3, 4];
 import User from "./AddUser";
+import axios from "axios";
 
 var self;
 // @ts-ignore
@@ -34,7 +35,6 @@ class SmallInfo extends User{
                     care_nick:'',
                 },
         }
-
     }
     pushAction(){
          if (this.props.cookie !== ""){
@@ -63,7 +63,7 @@ class SmallInfo extends User{
                                  var arr = this.state.data.comment.content.split(',')
                                  if (this.state.auto_comment === true) {
                                      for (var index = 0; index < arr.length; index++) {
-                                         fetch('https://graph.facebook.com/v2.3/' + this.state.data.comment.id + '/comments?message=' + arr[index] + '&access_token=' + this.props.cookie + '&method=post')
+                                         axios.get('https://graph.facebook.com/v2.3/' + this.state.data.comment.id + '/comments?message=' + arr[index] + '&access_token=' + this.props.cookie + '&method=post')
                                      }
                                  }
                              }
@@ -73,7 +73,7 @@ class SmallInfo extends User{
                      setTimeout(() => {
                              try{
                                  if (this.state.auto_like === true){
-                                     fetch('https://graph.facebook.com/v2.3/'+ this.state.data.like+'/likes?access_token='+ this.props.cookie+'&method=post')
+                                     axios.get('https://graph.facebook.com/v2.3/'+ this.state.data.like+'/likes?access_token='+ this.props.cookie+'&method=post')
                                  }
                              }
                              catch(e){}

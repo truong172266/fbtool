@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/fbtool/static/js/app.fd6cd3de.chunk.js",
-    "app.js.map": "/fbtool/static/js/app.fd6cd3de.chunk.js.map",
+    "app.js": "/fbtool/static/js/app.8a84fa13.chunk.js",
+    "app.js.map": "/fbtool/static/js/app.8a84fa13.chunk.js.map",
     "runtime~app.js": "/fbtool/static/js/runtime~app.2e87254b.js",
     "runtime~app.js.map": "/fbtool/static/js/runtime~app.2e87254b.js.map",
-    "static/js/2.07c895ae.chunk.js": "/fbtool/static/js/2.07c895ae.chunk.js",
-    "static/js/2.07c895ae.chunk.js.map": "/fbtool/static/js/2.07c895ae.chunk.js.map",
+    "static/js/2.f960d93c.chunk.js": "/fbtool/static/js/2.f960d93c.chunk.js",
+    "static/js/2.f960d93c.chunk.js.map": "/fbtool/static/js/2.f960d93c.chunk.js.map",
     "fonts/AntDesign.ttf": "/fbtool/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/fbtool/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/fbtool/./fonts/Feather.ttf",
@@ -25,11 +25,11 @@
     "index.html": "/fbtool/index.html",
     "manifest.json": "/fbtool/manifest.json",
     "serve.json": "/fbtool/serve.json",
-    "static/js/2.07c895ae.chunk.js.LICENSE.txt": "/fbtool/static/js/2.07c895ae.chunk.js.LICENSE.txt"
+    "static/js/2.f960d93c.chunk.js.LICENSE.txt": "/fbtool/static/js/2.f960d93c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.2e87254b.js",
-    "static/js/2.07c895ae.chunk.js",
-    "static/js/app.fd6cd3de.chunk.js"
+    "static/js/2.f960d93c.chunk.js",
+    "static/js/app.8a84fa13.chunk.js"
   ]
 }
